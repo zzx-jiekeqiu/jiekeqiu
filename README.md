@@ -8,7 +8,7 @@ jiekeqiu(杰客求) is an attempt to recreate jQuery thru native JS...
 
 ### $_$ and $Q
 
-use `$_$(selector, scope)` or `$Q(selector, scope)` to create new JKQ onject;
+use `$_$(selector, scope)` or `$Q(selector, scope)` to create new JKQ object;
 
 ```js
  $_$('div');
