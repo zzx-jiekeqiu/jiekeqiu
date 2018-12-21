@@ -1,12 +1,13 @@
 # jiekeqiu
+
 jiekeqiu(杰客求) is an attempt to recreate jQuery thru native JS... (www.jiekeqiu.com is still under construction...)
-
-
 
 ## JKQ API
 
 ### $_$ and $Q
-use ```$_$(selector, scope)``` or ```$Q(selector, scope)``` to create new JKQ onject;
+
+use `$_$(selector, scope)` or `$Q(selector, scope)` to create new JKQ onject;
+
 ```js
  $_$('div');
 ```
