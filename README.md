@@ -7,54 +7,54 @@ jiekeqiu(杰客求) is an attempt to recreate jQuery thru native JS... (www.jiek
 
 ### $_$ and $Q
 use $_$(selector, scope) or $Q(selector, scope) to create new JKQ onject;
-`js
+```js
  $_$('div');
-`
+```
 
 ### .T_T() and .html()
 
-`js
+```js
 
-`
+```
 
 ### .V_V() and .val()
 
-`js
+```js
 
-`
+```
 
 ### .S_S() and .css()
 
-`js
+```js
 
-`
+```
 
 ### .P_P() and .prop()
 
-`js
+```js
 
-`
+```
 
 ### .R_R() and .attr()
 
-`js
+```js
 
-`
+```
 
 ### .A_C() and .addClass()
 
-`js
+```js
 
-`
+```
 
 ### .R_C() and .removeClass()
 
-`js
+```js
 
-`
+```
 
 ### .T_C() and .toggleClass()
 
-`js
+```js
 
-`
+```
