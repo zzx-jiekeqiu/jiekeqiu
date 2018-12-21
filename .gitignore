@@ -2,3 +2,4 @@ testpage.html
 /vendor
 *.log
 *.temp
+.DS_Store
