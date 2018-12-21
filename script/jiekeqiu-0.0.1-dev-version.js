@@ -6,6 +6,7 @@ var $_$ = $Q = function (node, scope) {
 
 function JKQ(node, scope) {
     this.length = 0;
+    this._toggleClassCurrent = 0;
 
     this.init(node, scope);
 }
@@ -116,7 +117,6 @@ JKQ.prototype.R_R = JKQ.prototype.attr = function (attr, value) {
     }
 }
 
-//TODO: toggleClasses
 JKQ.prototype.A_C = JKQ.prototype.addClass = function (className) {
     const regex = new RegExp(`\\b${className}\\b`);
 
@@ -125,6 +125,7 @@ JKQ.prototype.A_C = JKQ.prototype.addClass = function (className) {
             continue;
         } else {
             this[i].className += ` ${className}`;
+            this[i].className = this[i].className.replace(/\s+/g, ' ');
         }
     }
     return this;
@@ -141,4 +142,25 @@ JKQ.prototype.R_C = JKQ.prototype.removeClass = function (className) {
         }
     }
     return this;
+}
+
+JKQ.prototype.T_C = JKQ.prototype.toggleClass = function (classNames) {
+    const self = this;
+    let prevIndex = null;
+    let index = this._toggleClassCurrent;
+
+    if(index === 0) {
+        prevIndex = classNames.length-1;
+    } else if(index >= classNames.length) {
+        prevIndex = index-1;
+        this._toggleClassCurrent = index = 0;
+    } else {
+        prevIndex = index-1;
+    }
+
+    this.removeClass(classNames[prevIndex]);
+    this.addClass(classNames[index]);
+
+    this._toggleClassCurrent++
+    return self;
 }
