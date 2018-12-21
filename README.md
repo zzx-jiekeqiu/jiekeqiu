@@ -1,6 +1,8 @@
 # jiekeqiu
 
-jiekeqiu(杰客求) is an attempt to recreate jQuery thru native JS... (www.jiekeqiu.com is still under construction...)
+jiekeqiu(杰客求) is an attempt to recreate jQuery thru native JS...
+
+(www.jiekeqiu.com is still under construction...)
 
 ## JKQ API
 
