@@ -167,6 +167,6 @@ JKQ.prototype.T_C = JKQ.prototype.toggleClass = function (classNames) {
 }
 
 //TODO: animation;
-JKQ.prototype.A_M = JKQ.prototype.animation = function (data) {
+JKQ.prototype.A_M = JKQ.prototype.animation = function (data, duration) {
 
 }
