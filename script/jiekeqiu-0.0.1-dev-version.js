@@ -2,12 +2,14 @@ var $_$ = $Q = function (node, scope) {
     return new JKQ(node, scope);
 };
 
-
 function JKQ(node, scope) {
     this.length = 0;
 
     this.init(node, scope);
 }
+
+
+JKQ.prototype = Object.create(Array.prototype);
 
 JKQ.prototype.init = function(node,scope) {
 
