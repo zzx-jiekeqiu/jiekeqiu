@@ -7,6 +7,7 @@ var $_$ = $Q = function (node, scope) {
 function JKQ(node, scope) {
     this.length = 0;
     this._toggleClassCurrent = 0;
+    this._animationQueue = [];
 
     this.init(node, scope);
 }
@@ -163,4 +164,9 @@ JKQ.prototype.T_C = JKQ.prototype.toggleClass = function (classNames) {
 
     this._toggleClassCurrent++
     return self;
+}
+
+//TODO: animation;
+JKQ.prototype.A_M = JKQ.prototype.animation = function (data) {
+
 }
