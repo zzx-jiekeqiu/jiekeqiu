@@ -2,6 +2,8 @@ var $_$ = $Q = function (node, scope) {
     return new JKQ(node, scope);
 };
 
+//TODO: ==> 创造div 改outerHTML 上树
+
 function JKQ(node, scope) {
     this.length = 0;
 
